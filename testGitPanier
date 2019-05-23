@@ -1,0 +1,16 @@
+package Main;
+
+public class Panier {
+
+		public static int getCount() {
+			return count;
+		}
+		public static void setCount(int count) {
+			Panier.count = count;
+		}
+	// ici on cree compteur
+				private static int count=0;					
+				public Panier (){
+						count ++; 
+				}
+}
